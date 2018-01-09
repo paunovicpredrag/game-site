@@ -1,0 +1,620 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    background-color: #292929;
+    max-width: 960px;
+    
+}
+#main_wrapper {
+    position: absolute;
+    left: -200px;
+    
+}
+
+.main_image {
+    
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    left: 330px;
+}
+
+
+.menu {
+    border: 5px solid black;
+    position: absolute;
+    float: left;
+    top: 110px;
+    left: 486px;
+    width: 942px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background: linear-gradient(#8c280c, #4f1202);
+}
+.menu ul {
+
+}
+.menu li{    
+    float: left;    
+    padding: 15px;
+    font-family: Trebuchet MS; 
+    font-weight: bold;
+}
+
+.lisearch {
+    width: 340px;
+    height: 18px; 
+    border-top-right-radius: 12px;
+}
+.menu li:first-child {
+    border-top-left-radius: 12px;
+}
+.search {
+    float: right;
+    
+}
+.search input {
+    outline: 1px solid red;
+}
+
+.menu li:hover, .menu li:active {
+    background-color: #d82e28;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+.menu li:last-child {
+    background: linear-gradient(#8c280c, #4f1202); 
+    cursor: default;
+}
+
+.advert li {
+    float: left;
+    border: 1px solid #cccccc;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #666666;
+    width: 184px;   
+    position: relative;
+    bottom: 378px;
+    left: 489px;
+    text-align: center;
+    font-family: Trebuchet MS;
+}
+
+.advert li a {
+    color: #cccccc;
+}
+.advert li a:hover {
+    text-decoration: underline;
+}
+.sub_menu ul {
+    clear: left;
+    
+}
+.sub_menu li {
+    background-color: #262d2b;
+    font-size: 0.8em;
+    border-right: 1px solid #666666;
+    float: left;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    bottom: 377px;
+    left: 489px;
+    color: #cccccc;
+    font-family: Trebuchet MS;
+    font-size: 0.71em;
+    
+}
+.sub_menu li:last-child {
+    border: none;
+    padding-right: 2px;
+}
+.sub_menu li:first-child {
+    padding-left: 4px;
+}
+.sub_menu li:hover {
+    background-color: #1a1f1e;
+    cursor: pointer;
+}
+
+#background {    
+    background-color: #323c3a;
+    width: 948px;
+    height: 3300px;
+    position: relative;
+    bottom: 354px;
+    left: 487px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 5px 15px 15px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo_image img {
+    position: absolute;
+    top: 216px;
+    left: 487px;
+}
+.cetiri_slike {    
+    display: inline-block;
+    position: absolute;
+    top: 230px;
+    left: 775px; 
+    width: 645px;
+}
+.cetiri_slike img {
+    padding-left: 6px;
+    
+}
+
+.email_subscriptions {
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(#282f2d, #42544f);
+    position: absolute;
+    top: 320px;
+    left: 487px;  
+    display: block;
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom-right-radius: 15px;
+}
+.email_subscriptions h4 {
+    background: linear-gradient(#282f2d, #42544f);
+    border: 1px solid #42544f;
+    border-top-right-radius: 10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 10px;
+    font-family: Trebuchet MS;
+    color: #ffffff;
+    font-size: 11px;
+}
+.email_subscriptions div {
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin: 10% 17%;
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    
+}
+
+.recent_game {
+    width: 270px;
+    height: 382px;
+    background-color: #282f2d;
+    position: absolute;
+    top: 520px;
+    left: 487px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom-right-radius: 15px;
+}
+.recent_game h4 {
+    background: linear-gradient(#282f2d, #42544f);
+    border: 1px solid #42544f;
+    border-top-right-radius: 10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 10px;
+    font-family: Trebuchet MS;
+    color: #ffffff;
+    font-size: 11px;
+}
+.recent_game div {
+    color: #ffffff;    
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+.recent_game div li {    
+    background-color: #282f2d;
+    list-style-type: disc;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    border-bottom: 1px solid #192522;
+    border-top: 1px solid #36423F; 
+    
+}
+.recent_game div li:last-child {
+    border-bottom: none;
+}
+.recent_game div li:hover {
+    background-color: #202624;
+    cursor: pointer;
+    color: cadetblue;
+}
+
+
+.recent_posts {
+    width: 270px;
+    height: 382px;
+    background-color: #282f2d;
+    position: absolute;
+    top: 902px;
+    left: 487px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom-right-radius: 15px;
+}
+.recent_posts h4 {
+    background: linear-gradient(#282f2d, #42544f);
+    border: 1px solid #42544f;
+    border-top-right-radius: 10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 10px;
+    font-family: Trebuchet MS;
+    color: #ffffff;
+    font-size: 11px;
+}
+.recent_posts div {
+    color: #ffffff;    
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+.recent_posts div li {    
+    background-color: #282f2d;
+    list-style-type: disc;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    border-bottom: 1px solid #192522;
+    border-top: 1px solid #36423F; 
+    
+}
+.recent_posts div li:last-child {
+    border-bottom: none;
+}
+.recent_posts div li:hover {
+    background-color: #202624;
+    cursor: pointer;
+    color: cadetblue;
+}
+
+
+.recent_comments {
+    width: 270px;
+    height: 281px;
+    background-color: #282f2d;
+    position: absolute;
+    top: 1285px;
+    left: 487px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom-right-radius: 15px;
+}
+.recent_comments h4 {
+    background: linear-gradient(#282f2d, #42544f);
+    border: 1px solid #42544f;
+    border-top-right-radius: 10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 10px;
+    font-family: Trebuchet MS;
+    color: #ffffff;
+    font-size: 11px;
+}
+.recent_comments div {
+    color: #ffffff;    
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+.recent_comments div li {    
+    background-color: #282f2d;
+    list-style-type: square;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    border-bottom: 1px solid #192522;
+    border-top: 1px solid #36423F; 
+    
+}
+.recent_comments div li:last-child {
+    border-bottom: none;
+}
+.recent_comments div li:hover {
+    background-color: #202624;
+    cursor: pointer;
+    color: cadetblue;
+}
+
+
+.games {
+    width: 625px; 
+    height: 700px;
+    position: relative;
+    bottom: 3400px;
+    left: 785px;
+    background-color: #262d2b;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.games .games_header {
+    width: 625px;
+    height: 27px;
+    background-color: #791d04;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(#8c280c, #4f1202);
+}
+
+.games h3 {
+    font-size: 1.5em;
+    font-family: Trebuchet MS;
+    text-align: left;
+    color: #ffffeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+       
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.games .admin {
+    color: #4c675f;
+    padding: 6px 0;
+    font-family: Trebuchet MS;
+    font-size: 0.6em;
+    border-top: 1px solid #3b4341;
+    border-bottom: 1px solid #3b4341;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cover_image {
+    margin-left: 205px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.games p {
+    font-family: Trebuchet MS;
+    color: #ffffeb;
+    font-size: 0.7em;
+    padding: 5px 0px 5px 15px;
+}
+
+.red {
+    color: red;
+}
+
+.read_more {
+    float: right;
+    padding: 15px;
+}
+
+.read_more:hover {
+    cursor: pointer;
+}
+
+
+
+
+.games2{
+    width: 625px; 
+    height: 700px;
+    position: relative;
+    bottom: 3380px;
+    left: 785px;
+    background-color: #262d2b;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.games2 .games_header {
+    width: 625px;
+    height: 27px;
+    background-color: #791d04;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(#8c280c, #4f1202);
+}
+.games2 h3 {
+    font-size: 1.5em;
+    font-family: Trebuchet MS;
+    text-align: left;
+    color: #ffffeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+       
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.games2 .admin {
+    color: #4c675f;
+    padding: 6px 0;
+    font-family: Trebuchet MS;
+    font-size: 0.6em;
+    border-top: 1px solid #3b4341;
+    border-bottom: 1px solid #3b4341;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.games2 p {
+    font-family: Trebuchet MS;
+    color: #ffffeb;
+    font-size: 0.7em;
+    padding: 5px 0px 5px 15px;    
+}
+
+
+.games3 p {
+    font-family: Trebuchet MS;
+    color: #ffffeb;
+    font-size: 0.7em;
+    padding: 5px 0px 5px 15px;
+}
+
+
+.games3{
+    width: 625px; 
+    height: 700px;
+    position: relative;
+    bottom: 3360px;
+    left: 785px;
+    background-color: #262d2b;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.games3 .games_header {
+    width: 625px;
+    height: 27px;
+    background-color: #791d04;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(#8c280c, #4f1202);
+}
+.games3 h3 {
+    font-size: 1.5em;
+    font-family: Trebuchet MS;
+    text-align: left;
+    color: #ffffeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+       
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.games3 .admin {
+    color: #4c675f;
+    padding: 6px 0;
+    font-family: Trebuchet MS;
+    font-size: 0.6em;
+    border-top: 1px solid #3b4341;
+    border-bottom: 1px solid #3b4341;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.games3 p {
+    font-family: Trebuchet MS;
+    color: #ffffeb;
+    font-size: 0.7em;
+    padding: 5px 0px 5px 15px;
+}
+
+
+.games4{
+    width: 625px; 
+    height: 700px;
+    position: relative;
+    bottom: 3340px;
+    left: 785px;
+    background-color: #262d2b;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.games4 .games_header {
+    width: 625px;
+    height: 27px;
+    background-color: #791d04;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(#8c280c, #4f1202);
+}
+.games4 h3 {
+    font-size: 1.5em;
+    font-family: Trebuchet MS;
+    text-align: left;
+    color: #ffffeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+       
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.games4 .admin {
+    color: #4c675f;
+    padding: 6px 0;
+    font-family: Trebuchet MS;
+    font-size: 0.6em;
+    border-top: 1px solid #3b4341;
+    border-bottom: 1px solid #3b4341;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.games4 p {
+    font-family: Trebuchet MS;
+    color: #ffffeb;
+    font-size: 0.7em;
+    padding: 5px 0px 5px 15px;
+}
+
+
+.broj_stranica {
+    position: relative;
+    bottom: 3290px;
+    left: 920px;
+}
+.broj_stranica li{
+    display: inline-block;
+    float: left;
+    border: 1px solid #565e5c;
+    padding: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #fff4d3;
+    background-color: #47514f;
+    font-family: Trebuchet MS;
+    font-size: 11px;
+}
+.broj_stranica li:hover {
+    background-color: #982d10;
+    border: 1px solid #b23a18;
+    cursor: pointer;
+}
+
+.broj_stranica .red2 {
+    background-color: #982d10;
+    border: 1px solid #b23a18;
+}
+
+
+
+#footer {
+    color: #f2ffff;
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    position: relative;
+    bottom: 3200px;
+    left: 178px;
+}
